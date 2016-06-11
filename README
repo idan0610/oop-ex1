@@ -1,0 +1,34 @@
+idan0610
+
+
+
+
+=============================
+=      File description     =
+=============================
+Competition.java - implements the Competition class
+Player.java - implements the Player class
+Board.java - implements the Board class
+Move.jave - implements the Move class
+
+
+=============================
+=          Design           =
+=============================
+In Competition class I decided to implement the tasks of one turn and one round of the game on private
+methods for better readability. All public methods were implemented according the Javadoc API.
+
+
+=============================
+=  Implementation details   =
+=============================
+The Smart Player first count the number of unmarked sequences exist on board at the moment. He also keep the
+row, left stick and right stick numbers of the first sequence found.
+Then, if the number of unmarked sequences is odd, the Smart Player marks 1 stick from the sequence found.
+Otherwise, the player marks the whole first sequence found.
+
+
+=============================
+=    Answers to questions   =
+=============================
+About the Smart Player - Above.
